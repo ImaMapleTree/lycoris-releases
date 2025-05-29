@@ -6,14 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Lycoris-UI/0.0.4": {
+      "Lycoris-UI/0.0.6": {
         "dependencies": {
           "ImGui.NET": "1.91.6.1",
-          "Lycoris": "0.0.4",
-          "Lycoris-Bullet": "0.0.4",
-          "Lycoris-Pipeline": "0.0.4",
-          "Lycoris-Pipeline-Json": "0.0.4",
-          "Microsoft.CodeAnalysis.CSharp": "4.12.0"
+          "Lycoris": "0.0.6",
+          "Lycoris-Bullet": "0.0.6",
+          "Lycoris-Pipeline": "0.0.6",
+          "Lycoris-Pipeline-Json": "0.0.6",
+          "Microsoft.CodeAnalysis.CSharp": "4.12.0",
+          "YamlDotNet": "16.3.0"
         },
         "runtime": {
           "Lycoris-UI.dll": {}
@@ -839,9 +840,17 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "Lycoris/0.0.4": {
+      "YamlDotNet/16.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.3.0.0"
+          }
+        }
+      },
+      "Lycoris/0.0.6": {
         "dependencies": {
-          "Lycoris-Backend": "0.0.4",
+          "Lycoris-Backend": "0.0.6",
           "MonoGame.Content.Builder.Task": "3.8.1.303",
           "MonoGame.Framework.DesktopGL": "3.8.1.303",
           "SharpFontStandard": "4.0.1"
@@ -850,25 +859,25 @@
           "Lycoris.dll": {}
         }
       },
-      "Lycoris-Backend/0.0.4": {
+      "Lycoris-Backend/0.0.6": {
         "dependencies": {
-          "Lycoris-Logging": "0.0.4"
+          "Lycoris-Logging": "0.0.6"
         },
         "runtime": {
           "Lycoris-Backend.dll": {}
         }
       },
-      "Lycoris-Bullet/0.0.4": {
+      "Lycoris-Bullet/0.0.6": {
         "dependencies": {
           "BulletSharp": "0.11.1",
-          "Lycoris": "0.0.4",
-          "Lycoris-Logging": "0.0.4"
+          "Lycoris": "0.0.6",
+          "Lycoris-Logging": "0.0.6"
         },
         "runtime": {
           "Lycoris-Bullet.dll": {}
         }
       },
-      "Lycoris-Logging/0.0.4": {
+      "Lycoris-Logging/0.0.6": {
         "dependencies": {
           "Pastel": "6.0.1"
         },
@@ -876,17 +885,17 @@
           "Lycoris-Logging.dll": {}
         }
       },
-      "Lycoris-Pipeline/0.0.4": {
+      "Lycoris-Pipeline/0.0.6": {
         "dependencies": {
-          "Lycoris": "0.0.4"
+          "Lycoris": "0.0.6"
         },
         "runtime": {
           "Lycoris-Pipeline.dll": {}
         }
       },
-      "Lycoris-Pipeline-Json/0.0.4": {
+      "Lycoris-Pipeline-Json/0.0.6": {
         "dependencies": {
-          "Lycoris-Pipeline": "0.0.4",
+          "Lycoris-Pipeline": "0.0.6",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -896,7 +905,7 @@
     }
   },
   "libraries": {
-    "Lycoris-UI/0.0.4": {
+    "Lycoris-UI/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1510,32 +1519,39 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Lycoris/0.0.4": {
+    "YamlDotNet/16.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "path": "yamldotnet/16.3.0",
+      "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
+    },
+    "Lycoris/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lycoris-Backend/0.0.4": {
+    "Lycoris-Backend/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lycoris-Bullet/0.0.4": {
+    "Lycoris-Bullet/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lycoris-Logging/0.0.4": {
+    "Lycoris-Logging/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lycoris-Pipeline/0.0.4": {
+    "Lycoris-Pipeline/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Lycoris-Pipeline-Json/0.0.4": {
+    "Lycoris-Pipeline-Json/0.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
